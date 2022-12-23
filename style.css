@@ -1,0 +1,49 @@
+a {
+  color: black;
+}
+h1 {
+  background-color: black;
+  font-size: 75px;
+  text-align: center;
+  border-bottom: 1px solid gray;
+  margin: 0px;
+  padding: 20px;
+}
+#grid {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+}
+ol {
+  border-right: 1px gray solid;
+  width: 100px;
+  margin: 0px;
+  padding: 20px;
+}
+body {
+  margin: 0px;
+}
+#grid #article {
+  padding-left: 25px; 
+}
+#grid ol{
+  padding-left: 33px;
+}
+#develop{
+  color:white;
+  position:relative;
+  text-decoration: none;
+}
+img{
+  border-radius: 70px 70px;
+}
+@media(max-width:550px){
+  #grid {
+    display: block;
+  }
+  ol {
+  border-right: NONE;
+  }
+  h1 {
+  border-bottom: none;
+  }
+}
